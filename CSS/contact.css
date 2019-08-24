@@ -1,0 +1,216 @@
+section {
+	font-family: MyriadProRegular;
+	background: #f5f5f5;
+	font-weight: 400;
+	font-size: 1.3vw;
+	line-height: 24px;
+	color: #787878;
+}
+
+/******STYLE CONTACT****/
+
+#contact {
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: hidden;
+	padding-top: 8%;
+}
+
+#contact .contact-infor {
+	width: 40%;
+}
+
+#contact h1.title {
+	font-weight: bold;
+	font-size: 2vw;
+	color: #171717;
+}
+
+.post-list strong {
+	color: #000;
+}
+
+.contact-form {
+	width: 50%;
+	border: 0;
+}
+
+.form-group {
+	font-size: 1vw;
+	line-height: 24px;
+	border: 0;
+}
+
+.main-contact-form input {
+	padding: 1.5% 2%;
+	margin-bottom: 4%;
+}
+
+#contact-form-name {
+	margin-right: 1.9%;
+}
+
+#contact-form-cmt {
+	width: 100%;
+	padding: 1.5% 2%;
+	font-family: NunitoSansRegular;
+}
+
+#btn-send-mess {
+	padding: 2% 2%;
+	background: #10c9c3;
+	color: #fff;
+	width: 35%;
+	margin-top: 30px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+
+.post-detail {
+	word-spacing: 2px;
+}
+
+.post-detail p {
+	line-height: 150%;
+}
+
+.title {
+	margin-top: 0%;
+}
+
+/*******STYLE MAP*********/
+
+#contact-map {
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: hidden;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+/*******RESPONSIVE************/
+
+@media only screen and (min-width: 993px) {
+	#contact-form-email {
+		width: 46%;
+	}
+	.main-contact-form input {
+		width: 100%;
+	}
+	.post-list li {
+		margin-bottom: 1.5%;
+	}
+	#contact h1.title {
+		margin-bottom: 7%;
+	}
+	#contact .post-list {
+		margin-top: 7%;
+	}
+	#contact-form-name {
+		width: 43%;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	#contact .contact-infor {
+		font-size: 1.7vw;
+	}
+	#contact h1.title {
+		font-size: 2.5vw;
+	}
+	.form-group {
+		font-size: 1.2vw;
+	}
+	#contact-form-name, #contact-form-name {
+		width: 100%;
+	}
+	#contact-form-cmt {
+		height: 150px;
+	}
+	.main-contact-form input {
+		width: 100%;
+	}
+	.post-list li a {
+		margin-bottom: 1%;
+	}
+	#contact h1.title {
+		margin-bottom: 7%;
+	}
+	#contact .post-list {
+		margin-top: 7%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#contact .contact-infor {
+		width: 100%;
+		margin-bottom: 10%;
+		font-size: 2.3vw;
+	}
+	#contact h1.title {
+		font-size: 3.5vw;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	.form-group {
+		font-size: 2.3vw;
+	}
+	.main-contact-form input {
+		width: 50%;
+	}
+	#contact-form-title {
+		width: 100%;
+	}
+	.post-list li a {
+		margin-bottom: 0%;
+	}
+	#contact h1.title {
+		margin-bottom: 5%;
+	}
+	#contact .post-list {
+		margin-top: 5%;
+	}
+	#contact-form-name {
+		width: 44.5%;
+	}
+	#contact-form-email {
+		width: 44.8%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#contact .contact-infor {
+		width: 100%;
+		margin-bottom: 10%;
+		font-size: 2.3vw;
+	}
+	#contact h1.title {
+		font-size: 3.5vw;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	.form-group {
+		font-size: 2.3vw;
+	}
+	.main-contact-form input {
+		width: 100%;
+	}
+	#contact-form-name {
+		width: 100%;
+	}
+	.post-list li a {
+		margin-bottom: 0%;
+	}
+	#contact h1.title {
+		margin-bottom: 3%;
+	}
+	#contact .post-list {
+		margin-top: 3%;
+	}
+	#contact-form-cmt {
+		height: 100px;
+	}
+}

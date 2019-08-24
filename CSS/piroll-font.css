@@ -1,0 +1,23 @@
+/* <editor-fold desc="FONTS"> */
+
+@font-face {
+    font-family: MontserratMedium;
+    src: url(../Fonts/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: NunitoSansRegular;
+    src: url(../Fonts/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(../Fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyriadProRegular;
+    src: url(../Fonts/MyriadProRegular.ttf);
+}
+
+/* </editor-fold desc="FONTS"> */

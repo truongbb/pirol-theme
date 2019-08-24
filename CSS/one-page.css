@@ -1,0 +1,694 @@
+/* <editor-fold desc="HEADER"> */
+
+header {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-background {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-container, .intro {
+    position: absolute;
+}
+
+.header-container {
+    top: 0%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.intro {
+    top: 30%;
+    padding-left: 60%;
+    padding-right: 6%;
+}
+
+.intro-title {
+    font-family: MontserratMedium;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #1d1d1d;
+}
+
+.intro-content {
+    font-family: NunitoSansRegular;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    color: #787878;
+    letter-spacing: 1px;
+}
+
+.intro-button {
+    border: none;
+    background-color: #10c9c3;
+}
+
+.intro-button a {
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .intro-button a {
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro-button a {
+        padding: 5px 10px;
+    }
+    .intro {
+        top: 45%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+}
+
+/* </editor-fold desc="HEADER"> */
+
+/* <editor-fold desc="ABOUT"> */
+
+h2, h3 {
+    font-family: MontserratMedium;
+}
+
+p {
+    font-family: NunitoSansRegular;
+}
+
+.dinh_about {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: 1.2vw;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.dinh_about h2 {
+    font-size: 2.2vw;
+    /* padding-bottom: 5%; */
+    color: #191919;
+}
+
+.dinh_about p {
+    color: #b3b3b3;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.dinh_about img {
+    padding-top: 5%;
+    width: 30%;
+    height: auto;
+}
+
+.dinh_skill {
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+
+.dinh_text {
+    float: left;
+    overflow: auto;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    width: 34%;
+}
+
+.dinh_text h2 {
+    margin-bottom: 8%;
+}
+
+.dinh_img {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.dinh_img img {
+    vertical-align: middle;
+}
+
+.dinh_text_small div {
+    float: left;
+}
+
+.dinh_des {
+    border-bottom: 3px solid #10c9c3;
+    margin-bottom: 10%;
+    width: 75%;
+    height: 3vw;
+}
+
+.skill-title {
+    border-bottom: 3px solid #10c9c3;
+    height: 3vw;
+}
+
+.skill-title p {
+    letter-spacing: 2px;
+    font-size: 0.9vw;
+}
+
+.skill-title-empty {
+    height: 3vw;
+    border-bottom: 3px solid #d8d8d8;
+}
+
+.dinh_des_empty {
+    width: 25%;
+}
+
+.dinh_dev {
+    margin-bottom: 10%;
+    width: 90%;
+}
+
+.dinh_dev_empty {
+    width: 10%;
+}
+
+.dinh_mar {
+    margin-bottom: 10%;
+    width: 65%;
+}
+
+.dinh_mar_empty {
+    width: 35%;
+}
+
+.dinh_number {
+    background-color: #10c9c3;
+    padding: 3%;
+    display: block;
+    overflow: auto;
+    color: white;
+    font-size: 1vw;
+    font-family: MontserratMedium;
+    text-align: center;
+}
+
+.dinh_number div {
+    float: left;
+    padding: 2%;
+    width: 20%;
+}
+
+.dinh_num1 h3, .dinh_num1 p {
+    margin: 0%;
+}
+
+.dinh_num1 p {
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 993px) {
+    .dinh_number .dinh_num1 {
+        text-align: left;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .dinh_number .dinh_num1 {
+        text-align: left;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .dinh_number .dinh_num {
+        text-align: center;
+        float: left;
+        padding: 2%;
+        width: 50%;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin: 0;
+        padding: 0;
+    }
+    .dinh_number div {
+        float: none;
+        padding: 2%;
+        width: unset;
+    }
+    .dinh_text {
+        padding-bottom: 4.5%;
+    }
+    .skill-title {
+        border-bottom: 2px solid #10c9c3;
+    }
+    .skill-title-empty {
+        border-bottom: 2px solid #d8d8d8;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .dinh_number .dinh_num {
+        text-align: center;
+        float: left;
+        padding: 2%;
+        width: 50%;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin: 0;
+        padding: 0;
+    }
+    .dinh_number div {
+        float: none;
+        padding: 2%;
+        width: unset;
+    }
+    .skill-title {
+        border-bottom: 1px solid #10c9c3;
+    }
+    .skill-title-empty {
+        border-bottom: 1px solid #d8d8d8;
+    }
+}
+
+/* </editor-fold desc="ABOUT"> */
+
+/* <editor-fold desc="OUR WORK PROCESS"> */
+
+#nhanltt-work-process {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 4% 0;
+}
+
+#nhanltt-work-process h2 {
+    font-size: 2.2vw
+}
+
+#nhanltt-work-process iframe {
+    width: 100%;
+    height: 600px;
+    margin: 3% 0;
+    overflow: hidden;
+}
+
+#nhanltt-work-process h1 {
+    font-size: 3vw;
+    font-family: MontserratMedium;
+}
+
+#nhanltt-work-process p {
+    font-size: 1.2vw;
+    color: #787878;
+    font-family: NunitoSansRegular;
+}
+
+/*nhanltt-services-section*/
+
+#nhanltt-services-section {
+    background-color: #f5f5f5;
+}
+
+#nhanltt-services {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.nhanltt-service {
+    width: 20%;
+    text-align: center;
+    padding: 2% 1%;
+}
+
+.nhanltt-service i {
+    font-size: 3vw;
+    color: #787878;
+}
+
+.nhanltt-service-header {
+    font-family: MontserratMedium;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.nhanltt-service-content {
+    font-size: 1vw;
+    font-family: NunitoSansRegular;
+    color: #787878;
+    line-height: 1.8em;
+}
+
+/*reponsive*/
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    #nhanltt-work-process p {
+        font-size: 1.5vw;
+    }
+    .nhanltt-service-content {
+        font-size: 1.3vw;
+    }
+    #nhanltt-work-process iframe {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #nhanltt-work-process p {
+        font-size: 1.7vw;
+    }
+    #nhanltt-work-process iframe {
+        height: 400px;
+    }
+    .nhanltt-service {
+        width: 45%;
+        padding: 3% 1%;
+    }
+    .nhanltt-service-content {
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #nhanltt-work-process p {
+        font-size: 1.7vw;
+    }
+    #nhanltt-work-process iframe {
+        height: 250px;
+    }
+    .nhanltt-service {
+        width: 90%;
+        padding: 3% 1%;
+    }
+    .nhanltt-service-content {
+        font-size: 1.4vw;
+    }
+}
+
+/* </editor-fold desc="OUR WORK PROCESS"> */
+
+/* <editor-fold desc="CONTACT"> */
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*****STYLE GLOBAL******/
+
+.text-center {
+    text-align: center;
+}
+
+.netnt-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* 
+body {
+	font-family: MontserratMedium;
+	line-height: 1;
+} */
+
+/*****STYLE TESTIMONIALS******/
+
+#testimonials {
+    background: #10c9c3;
+}
+
+#testimonials-carousel {
+    width: 70%;
+    margin: auto;
+    padding: 131px 0px 22px;
+}
+
+.home-testm-txt {
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 1.0px;
+    font-size: 24px;
+}
+
+.home-testm-txt p {
+    padding: 28px 0px;
+}
+
+.home-testm-txt h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-family: MontserratMedium;
+}
+
+.owl-dots {
+    margin-bottom: 50px;
+    color: white;
+}
+
+/*****STYLE CLIENTS******/
+
+.clients-area {
+    padding: 20px 0px;
+}
+
+.clients-area .owl-statge {
+    padding: 5px 24px;
+}
+
+.clients-area .item {
+    /* padding: 0 13px 2px; */
+    width: 19%;
+    display: inline-block;
+}
+
+.clients-area .item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/*****STYLE CONTACT******/
+
+#contact {
+    background: #f5f5f5;
+}
+
+#contact .contact-detail {
+    width: 56%;
+    margin: auto;
+    padding: 92px 0px 71px;
+}
+
+#contact .contact-head {
+    padding-bottom: 40px;
+}
+
+#contact .contact-head h2 {
+    color: #1d1d1d;
+    font-size: 2.2vw;
+    font-weight: bold;
+    line-height: 84px;
+}
+
+#contact .contact-head p {
+    color: #787878;
+    font-size: 1.2vw;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.contact-form {
+    border: 0;
+}
+
+.form-group {
+    font-size: 1.1vw;
+    line-height: 24px;
+    border: 0;
+}
+
+.main-contact-form input {
+    padding: 10px 20px 11px;
+    margin-bottom: 30px;
+    width: 94%;
+}
+
+#contact-form-cmt {
+    width: 94%;
+    line-height: 24px;
+    padding: 10px 20px 11px;
+}
+
+#btn-send-mess {
+    padding: 2% 2%;
+    background: #10c9c3;
+    color: #fff;
+    width: 35%;
+    margin: 30px 30% 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/***** RESPONSE ******/
+
+@media only screen and (min-width: 992px) {
+    #contact-form-name {
+        width: 40%;
+        margin-right: 1.9%;
+    }
+    #contact-form-email {
+        width: 43%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /*style client*/
+    .clients-area .item {
+        /* padding: 0 13px 2px; */
+        width: 30%;
+        display: inline-block;
+    }
+    .clients-area .clone img {
+        display: none;
+    }
+    /*style contact*/
+    #contact .contact-detail {
+        width: 80%;
+    }
+    .form-group {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .clients-area .item {
+        /* padding: 0 13px 2px; */
+        width: 49%;
+        display: inline-block;
+    }
+    .clients-area .clone img, .clients-area .clone-2 img {
+        display: none;
+    }
+    #contact .contact-detail {
+        width: 91%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .form-group {
+        font-size: 1.7vw;
+    }
+}
+
+/* </editor-fold desc="CONTACT"> */
+
+/* <editor-fold desc="TRUONGBB LIVE TITLE"> */
+
+.truongbb-live-title {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: block;
+}
+
+.truongbb-live-title img {
+    width: 25%;
+    float: left;
+}
+
+.truongbb-load-more-work button {
+    width: 100%;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.truongbb-load-more-work a {
+    text-decoration: none;
+    color: #969696;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 993px) {
+    /* none */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .truongbb-live-title img {
+        width: 50%;
+        float: left;
+    }
+    .truongbb-load-more-work a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 1.3vw;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .truongbb-live-title img {
+        width: 50%;
+        float: left;
+    }
+    .truongbb-load-more-work a {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 1.3vw;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .truongbb-live-title img {
+        width: 90%;
+        padding: 5%;
+        padding-bottom: 0%;
+        float: left;
+    }
+    .padding-bottom-img {
+        padding-bottom: 5% !important;
+    }
+    .truongbb-load-more-work a {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 1.3vw;
+        letter-spacing: 1px;
+    }
+    .truongbb-load-more-work button {
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+/* </editor-fold desc="TRUONGBB LIVE TITLE"> */
