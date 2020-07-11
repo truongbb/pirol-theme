@@ -1,23 +1,23 @@
-/* <editor-fold desc="FONTS"> */
+/* <editor-fold desc="font"> */
 
 @font-face {
     font-family: MontserratMedium;
-    src: url(../Fonts/Montserrat-Medium.otf);
+    src: url(../font/Montserrat-Medium.otf);
 }
 
 @font-face {
     font-family: NunitoSansRegular;
-    src: url(../Fonts/NunitoSans-Regular.ttf);
+    src: url(../font/NunitoSans-Regular.ttf);
 }
 
 @font-face {
     font-family: WorkSansRegular;
-    src: url(../Fonts/WorkSans-Regular.ttf);
+    src: url(../font/WorkSans-Regular.ttf);
 }
 
 @font-face {
     font-family: MyriadProRegular;
-    src: url(../Fonts/MyriadProRegular.ttf);
+    src: url(../font/MyriadProRegular.ttf);
 }
 
-/* </editor-fold desc="FONTS"> */
+/* </editor-fold> */

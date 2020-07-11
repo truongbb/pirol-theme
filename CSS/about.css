@@ -20,7 +20,7 @@ p {
 }
 
 .banner {
-    background-image: url("../Images/about/banner.jpg");
+    background-image: url("../image/about/banner.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
